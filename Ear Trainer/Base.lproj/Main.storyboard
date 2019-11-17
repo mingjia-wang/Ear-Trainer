@@ -26,26 +26,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmH-3C-jMc">
-                                <rect key="frame" x="111" y="371.66666666666669" width="153" height="69"/>
-                                <color key="backgroundColor" red="1" green="0.31994660092148453" blue="0.30806053790270504" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="vmH-3C-jMc" secondAttribute="height" multiplier="51:23" id="eDl-rO-CLi"/>
-                                    <constraint firstAttribute="width" constant="153" id="r2G-gS-8Tk"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="Play Note">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="psO-CX-CEl"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mLV-X2-P8d">
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <subviews>
@@ -63,7 +43,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ear Trainer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p43-60-XIY">
-                                                        <rect key="frame" x="107" y="31" width="161.33333333333337" height="33.333333333333343"/>
+                                                        <rect key="frame" x="107.00000000000001" y="31.000000000000004" width="161.33333333333337" height="33.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="27"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -302,6 +282,26 @@
                                     <constraint firstItem="hCm-4U-9zl" firstAttribute="top" secondItem="mLV-X2-P8d" secondAttribute="top" id="vtt-g8-MdW"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmH-3C-jMc">
+                                <rect key="frame" x="111" y="371.66666666666669" width="153" height="69"/>
+                                <color key="backgroundColor" red="1" green="0.31994660092148453" blue="0.30806053790270504" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vmH-3C-jMc" secondAttribute="height" multiplier="51:23" id="eDl-rO-CLi"/>
+                                    <constraint firstAttribute="width" constant="153" id="r2G-gS-8Tk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Play Note">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="psO-CX-CEl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -317,7 +317,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="playNoteButton" destination="vmH-3C-jMc" id="rwO-Ll-Xel"/>
                         <outlet property="progressBar" destination="YMs-Tw-BZW" id="glW-8g-NbF"/>
                         <outlet property="questionHeader" destination="EM8-NY-PzC" id="y1V-ln-fMv"/>
                         <outlet property="questionNumber" destination="Dbc-4P-atk" id="za5-II-75Z"/>
