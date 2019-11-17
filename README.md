@@ -13,11 +13,11 @@ and was designed to follow the Model-View-Controller architectural pattern.
 
 Ear Trainer shown running on iPhone 11 Pro. ProgressHUD shows instant feedback for correct/incorrect answers.
 
-<img src="img1.png" height="300" width="150"><img src="img2.png" height="300" width="150">
+<img src="img1.png" height="500" width="250"><img src="img2.png" height="500" width="250">
 
 
 And iPhone 8:
 
 
-<img src="img3.png" height="300" width="150"><img src="img4.png" height="300" width="150">
+<img src="img3.png" height="500" width="250"><img src="img4.png" height="500" width="250">
 
