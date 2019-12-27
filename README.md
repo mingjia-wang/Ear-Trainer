@@ -13,4 +13,4 @@ and was designed to follow the Model-View-Controller architectural pattern.
 
 Ear Trainer shown running on iPhone 11 Pro. ProgressHUD shows instant feedback for correct/incorrect answers.
 
-<img src="img1.png" height="480" width="270"><img src="img2.png" height="480" width="270">
+<img src="img1.png" height="585" width="270"><img src="img2.png" height="585" width="270">
